@@ -1,4 +1,4 @@
-##
+=begin
 Recursive Transition Network (RTN) for constructing "fancy nouns."
 Modification of the RTN on page 132 of the Twentieth-anniversary Edition of
 "Godel, Escher, Bach" by Douglas R. Hofstadter.
@@ -13,4 +13,4 @@ ORNATE_NOUN -> ADJECTIVE (unbounded loop) -> NOUN -> end
                        -> NOUN -> end
 ORNATE_VERB -> VERB -> end
             -> ADVERB (unbounded loop) -> VERB -> end
-##
+=end
