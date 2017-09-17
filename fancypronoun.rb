@@ -14,3 +14,23 @@ ORNATE_NOUN -> ADJECTIVE (unbounded loop) -> NOUN -> end
 ORNATE_VERB -> VERB -> end
             -> ADVERB (unbounded loop) -> VERB -> end
 =end
+
+def article()
+  ar = ["a","the"]
+  return ar.sample
+end
+
+def adjective()
+  ad = ["new","old","boring"]
+  return ad.sample
+end 
+
+def noun()
+  no = ["a.i","car","company" ]
+  return no.sample
+end
+
+def preposition()
+  pre = ["without","also" ]
+  return pre.sample 
+end
