@@ -34,3 +34,13 @@ def preposition()
   pre = ["without","also" ]
   return pre.sample 
 end
+
+def verb()
+  ver = ["touched","ran"]
+  return ver.sample
+end
+
+def relative_pronoun()
+  rel = ["that"]
+  return rel.sample
+end
