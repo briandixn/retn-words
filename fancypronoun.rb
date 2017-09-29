@@ -44,3 +44,10 @@ def relative_pronoun()
   rel = ["that"]
   return rel.sample
 end
+
+def sente()
+  sentence = article() + " " + adjective()
+  puts("#{sentence}")
+end 
+
+sente()
